@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "fonts.css";
+
+body {
+  background-color: black;
+}
+.img1 img {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  }
+
+  .img2 img {
+    position: relative;
+    width: 317px;
+    height: 320px;
+    left: 0px;
+    top: 531px;
+    width: 100vw;
+    height: 100vh;
+    }
