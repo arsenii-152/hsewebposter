@@ -4,18 +4,28 @@
 body {
   background-color: black;
 }
-.img1 img {
-  position: absolute;
+.luch {
+  width: 95vw;
+  height: 400vh;
+}
+.mozg {
+  display: flex;
+  transform: translate3d(300px,-1700px, 0px);
+  width: 40vw;
+  height: 70vh;
+}
+.fade {
+  display: flex;
+  transform: translate3d(500px,-3000px, 0px);
+  width: 1134px;
+  height: 788px;
   width: 100vw;
-  height: 100vh;
-  }
-
-  .img2 img {
-    position: relative;
-    width: 317px;
-    height: 320px;
-    left: 0px;
-    top: 531px;
-    width: 100vw;
-    height: 100vh;
-    }
+  height: 50vh;
+}
+.frame {
+  display: flex;
+  transform: translate3d(500px,-3376px, 0px);
+  max-width:100%;
+  height:auto;
+  z-index: 2;
+}
