@@ -9,7 +9,6 @@ body {
   height: 3807px;
   transform: translate3d(0px, 0px, 0px);
   z-index: 1;
-  animation: luchik 4s ease ;
 }
 
 .fade {
@@ -31,6 +30,7 @@ body {
   width: 1366px;
   z-index: 6;
   transform: translate3d(20px, -3050px, 0px);
+
 }
 .logo {
   height: 324px;
@@ -59,7 +59,7 @@ body {
 }
 h1 {
   font-size: 140px;
-  transform: translate3d(40px, -9110px, 0px);
+  transform: translate3d(40px, -12930px, 0px);
   color: white;
   font-family: "Montserrat-Bold";
   animation: blur 2s infinite alternate;
@@ -69,6 +69,7 @@ h1 {
     width: 964px;
     z-index: 4;
     transform: translate3d(180px, -3100px, 0px);
+
     }
     div {
       background: linear-gradient(180deg, #FF0000, #FF8C21, #EFEB24, #50EF24, #24DEEF, #242FEF, #BB24EF);
@@ -78,6 +79,13 @@ h1 {
       z-index: 10;
       animation: gradient 8s ease infinite alternate;
     }
+    .luch1 {
+      width: 1589px;
+      height: 3807px;
+      transform: translate3d(0px, -9172px, 0px);
+      z-index: 1;
+      animation: luk 500s ;
+    }
 /* база для анимации*/
 @keyframes gradient {
 100% {
@@ -86,15 +94,25 @@ background-position: 0 2000px;
 }
 @keyframes luchik {
 0% {
-      color: #000
+  width: 794px;
+  height: 1903px;
 }
 50% {
-    color: grey;
+width: 794px;
+height: 1903px;
 }
 100% {
-    color: white;
+width: 1589px;
+height: 3807px;
 }
 }
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 @keyframes blur {
   0% {
@@ -102,5 +120,16 @@ background-position: 0 2000px;
   }
   100% {
     text-shadow:0 0 50px white
+  }
+}
+@keyframes luk {
+  0% {
+    opacity: 1;
+  }
+  5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1
   }
 }
