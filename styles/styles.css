@@ -123,13 +123,88 @@ height: 3807px;
   }
 }
 @keyframes luk {
-  0% {
-    opacity: 1;
-  }
-  5% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1
-  }
+0% {
+opacity: 1;
 }
+5% {
+opacity: 0;
+}
+100% {
+opacity: 1
+}
+}
+
+ @media (max-width: 1235px) {
+   .luch {
+     width: 1478px;
+     height: 3542px;
+     transform: translate3d(0px, 0px, 0px);
+
+   }
+   .fade {
+     width: 869px;
+     height: 686px;
+     opacity:0 ;
+     z-index: 2;
+     transform: translate3d(600px, -2970px, 0px);
+   }
+
+   .text {
+     height: 676px;
+     width: 1271px;
+     z-index: 6;
+     transform: translate3d(20px, -3000px, 0px);
+     opacity: 1;
+   }
+   .logo {
+     height: 324px;
+     width: 330px;
+     z-index: 7;
+     transform: translate3d(890px, -2860px, 0px);
+   }
+   .borl {
+     width: 1060px;
+     height: 794px;
+     z-index: 8;
+     transform: translate3d(28px, -8203px, 0px);
+   }
+   .borr {
+     width: 154px;
+     height: 922.5px;
+     transform: translate3d(1377px, -7180px, 0px);
+   }
+   .frame {
+     transform: translate3d(420px, -6455px, 0px);
+     height:712.33px;
+     width: 1019px;
+   }
+   h1 {
+     font-size: 120px;
+     transform: translate3d(40px, -12980px, 0px);
+     color: white;
+     font-family: "Montserrat-Bold";
+     animation: blur 2s infinite alternate;
+   }
+     .mozg {
+       height: 1102px;
+       width: 964px;
+       z-index: 4;
+       transform: translate3d(170px, -3000px, 0px);
+       }
+       div {
+         background: linear-gradient(180deg, #FF0000, #FF8C21, #EFEB24, #50EF24, #24DEEF, #242FEF, #BB24EF);
+         width: 836px;
+         height: 688px;
+         transform: translate3d(610px,-5756px, 0px);
+         z-index: 10;
+         animation: gradient 8s ease infinite alternate;
+         opacity: 1;
+       }
+       .luch1 {
+         width: 1478px;
+         height: 3542px;
+         transform: translate3d(0px, -9435px, 0px);
+         z-index: 1;
+         animation: luk 500s ;
+       }
+ }
