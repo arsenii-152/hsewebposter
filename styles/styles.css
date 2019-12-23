@@ -5,27 +5,64 @@ body {
   background-color: black;
 }
 .luch {
-  width: 95vw;
-  height: 400vh;
+  width: 1589px;
+  height: 3807px;
+  z-index: 1;
 }
-.mozg {
-  display: flex;
-  transform: translate3d(300px,-1700px, 0px);
-  width: 40vw;
-  height: 70vh;
+div {
+  background: linear-gradient(0deg, #00c9ff,#92fe9d);
+  width: 936px;
+  height: 738px;
+  transform: translate3d(612px,1360px, 0px);
+  z-index: 2;
 }
 .fade {
   display: flex;
-  transform: translate3d(500px,-3000px, 0px);
-  width: 1134px;
-  height: 788px;
-  width: 100vw;
-  height: 50vh;
+  transform: translate3d(612px,-3189px, 0px);
+  width: 936px;
+  height: 738px;
+  opacity: 0;
 }
 .frame {
-  display: flex;
-  transform: translate3d(500px,-3376px, 0px);
-  max-width:100%;
-  height:auto;
+  position: absolute;
+  transform: translate3d(470px,-3929px, 0px);
+  height: 752px;
+  width: 1075.7px;
   z-index: 2;
+}
+.mozg {
+  position: absolute;
+  transform: translate3d(180px, -3000px, 0px);
+  height: 1102px;
+  width: 964px;
+}
+.sign {
+  position: absolute;
+  transform: translate3d(100px, -4550px, 0px);
+  height: 253px;
+  width: 1168px;
+}
+.text {
+  position: absolute;
+  transform: translate3d(10px, -1830px, 0px);
+  height: 727px;
+  width: 1366px;
+}
+.logo {
+  position: absolute;
+  transform: translate3d(1000px, -1080px, 0px);
+  height: 324px;
+  width: 330px;
+}
+.borl {
+  position: absolute;
+  width: 1060px;
+  height: 794px;
+  transform: translate3d(181px, -4126px, 0px);
+}
+.borr {
+  position: absolute;
+  width: 154px;
+  height: 922.5px;
+  transform: translate3d(1487px, -4000px, 0px);
 }
