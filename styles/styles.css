@@ -7,62 +7,100 @@ body {
 .luch {
   width: 1589px;
   height: 3807px;
+  transform: translate3d(0px, 0px, 0px);
   z-index: 1;
+  animation: luchik 4s ease ;
 }
-div {
-  background: linear-gradient(0deg, #00c9ff,#92fe9d);
-  width: 936px;
-  height: 738px;
-  transform: translate3d(612px,1360px, 0px);
-  z-index: 2;
-}
+
 .fade {
-  display: flex;
-  transform: translate3d(612px,-3189px, 0px);
   width: 936px;
   height: 738px;
-  opacity: 0;
-}
-.frame {
-  position: absolute;
-  transform: translate3d(470px,-3929px, 0px);
-  height: 752px;
-  width: 1075.7px;
+  opacity: 1;
   z-index: 2;
-}
-.mozg {
-  position: absolute;
-  transform: translate3d(180px, -3000px, 0px);
-  height: 1102px;
-  width: 964px;
+  transform: translate3d(613px, -3196px, 0px);
 }
 .sign {
-  position: absolute;
-  transform: translate3d(100px, -4550px, 0px);
   height: 253px;
   width: 1168px;
+  z-index: 5;
+  transform: translate3d(60px, -5650px, 0px);
+
 }
 .text {
-  position: absolute;
-  transform: translate3d(10px, -1830px, 0px);
   height: 727px;
   width: 1366px;
+  z-index: 6;
+  transform: translate3d(20px, -3050px, 0px);
 }
 .logo {
-  position: absolute;
-  transform: translate3d(1000px, -1080px, 0px);
   height: 324px;
   width: 330px;
+  z-index: 7;
+  transform: translate3d(890px, -2920px, 0px);
+
 }
 .borl {
-  position: absolute;
   width: 1060px;
   height: 794px;
-  transform: translate3d(181px, -4126px, 0px);
+  z-index: 8;
+  transform: translate3d(28px, -7770px, 0px);
+
 }
 .borr {
-  position: absolute;
   width: 154px;
   height: 922.5px;
-  transform: translate3d(1487px, -4000px, 0px);
+  transform: translate3d(405px, -6850px, 0px);
+}
+.frame {
+  transform: translate3d(471px, -7013px, 0px);
+  height: 752px;
+  width: 1075.7px;
+  z-index: 10;
+}
+h1 {
+  font-size: 140px;
+  transform: translate3d(40px, -9110px, 0px);
+  color: white;
+  font-family: "Montserrat-Bold";
+  animation: blur 2s infinite alternate;
+}
+  .mozg {
+    height: 1102px;
+    width: 964px;
+    z-index: 4;
+    transform: translate3d(180px, -3100px, 0px);
+    }
+    div {
+      background: linear-gradient(180deg, #FF0000, #FF8C21, #EFEB24, #50EF24, #24DEEF, #242FEF, #BB24EF);
+      width: 936px;
+      height: 738px;
+      transform: translate3d(610px,-6101px, 0px);
+      z-index: 10;
+      animation: gradient 8s ease infinite alternate;
+    }
+/* база для анимации*/
+@keyframes gradient {
+100% {
+background-position: 0 2000px;
+}
+}
+@keyframes luchik {
+0% {
+      color: #000
+}
+50% {
+    color: grey;
+}
+100% {
+    color: white;
+}
+}
+}
+@keyframes blur {
+  0% {
+    text-shadow: 0 0 0 white
+  }
+  100% {
+    text-shadow:0 0 50px white
+  }
 }
